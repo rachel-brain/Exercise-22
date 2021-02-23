@@ -1,0 +1,128 @@
+/* Universal Selector */
+* {
+  margin:0;
+  padding:0;  
+}
+
+/* Note that I am using the VaporWave Color Palette from Hex (slightly modified) */
+/* Element Selectors */
+body {
+  position: relative;
+  font-family: "Verdana", sans-serif;
+  font-size: 20px;
+  background-color: #fa92d6;
+  color: #08b8e4;
+}
+
+h1 {
+  margin: 20px;
+  position: relative;
+  top: 50px;
+}
+
+h2 {
+  margin: 20px;
+  position: relative;
+  top: 10px;
+}
+
+main {
+  padding: 60px 0;
+}
+
+/* I have removed some unnecessary commands */
+li {
+  display: inline;
+  padding: 10px;  
+}
+
+/* I have changed dimensions of header & footer */
+header,
+footer {
+  height: 75px;
+  width: 100%;
+  line-height: 75px;
+  background-color: #fffb96;
+  display: inline;
+  }
+
+header {
+  position: fixed;
+  border-bottom: 10px solid #05ffa1;
+}
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid #05ffa1;
+  color: #FDF8F5;    
+}
+
+figure {
+  height: 500px;
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 3px solid #b967ff;
+  background-color:  #fffb96;
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #b967ff;
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+  
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  height: 50px;
+  border: 1px solid #08b8e4;
+  font-size: 18px;
+  font-style: italic;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  
+button {
+  height: 60px;
+  width: 175px;
+  border-radius: 25px;
+  background-color: #08b8e4;
+  color: #fffb96;
+  font-size: 30px;
+  align: center;
+}
+ 
+/* Class Selectors */
+.text-center {
+  text-align: center;
+  margin-top: 20px;
+  color: #b967ff;
+}
+
+.text-right {
+  text-align: right;
+}
+
